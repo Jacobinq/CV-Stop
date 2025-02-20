@@ -1,0 +1,146 @@
+
+
+:root {
+  
+    --blue: #5271ff;
+    --white: #f6f6f6;;
+    --TurquoiseBlue: #5ce1e6;
+    
+
+
+  }
+  
+
+
+
+
+  .mainSection {
+    position: absolute;
+   
+  
+    padding-left: 20%;
+  
+  }
+
+
+
+  
+ 
+  
+  .search {
+    position: relative;
+    width: 350px;
+    margin: 0 10px;
+    
+    
+    
+  }
+  
+  .search label {
+    position: relative;
+    width: 100%;
+  }
+  
+  .search label input {
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    padding-left: 35px;
+    font-size: 20px;
+    outline:blue;
+    border: 5px solid var(--black2);
+    
+  }
+  
+  .search label i {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    font-size: 1.5rem;
+    
+
+  }
+
+
+
+  
+
+  
+
+
+  
+ 
+  
+  .show {display: block;}
+  .Cards {
+    position: relative;
+    width: 130%;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+  }
+
+  .h1{
+    text-align: center;
+  }
+  .Cards .card {
+    position: relative;
+    background-color:grey;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .Cards .card .figure {
+    position: relative;
+    font-weight: 500;
+    font-size:3rem;
+    color:white;
+  }
+  
+  .Cards .card .cardName {
+    color:white;
+    font-size: 1.5rem;
+    margin-top: 5px;
+  }
+  
+ 
+  
+  .size {
+    width: 50px;
+    height: auto;
+  }
+
+
+
+#cols{
+    pointer-events: none;
+}
+
+.AdminTable {
+    position: relative;
+    display: grid;
+    text-align: center;
+   /** min-height: 300px;*/
+    background: grey;
+    padding: 20px;
+    box-shadow: blue;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+
+td{
+  color: white;
+}
+  .TableDesign table thead td {
+    font-weight: 600;
+  }
+
+  
+  
+  
