@@ -1,10 +1,22 @@
 package com.example.demo.Controllers;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-// import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+
+import ch.qos.logback.core.model.Model;
+@Controller
+public class LoginController {
+    @GetMapping("/") 
+    public String index(Model model){
+        return "index";
+    }
+    
+}
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.stereotype.Controller;
+// // import org.springframework.security.access.prepost.PreAuthorize;
+// import org.springframework.web.bind.annotation.GetMapping;
+// import org.springframework.web.bind.annotation.PathVariable;
+// import org.springframework.web.bind.annotation.PostMapping;
 
 // import com.example.demo.Repositorys.UserRepository;
 // import com.example.demo.Security.JpaUserDetailsService;
